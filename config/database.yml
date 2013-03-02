@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  database: puma_test_dev
+  pool: 25
+
+test:
+  adapter: postgresql
+  database: puma_test_test
+  pool: 25
+
+production:
+  adapter: postgresql
+  database: puma_test_prod
+  pool: 25
